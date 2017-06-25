@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import sys
+import ui
 
 
 class CinFile:
@@ -64,3 +65,22 @@ class CinFile:
             else:
                 res.append(key)
         return res
+
+
+def lookup_action(sender):
+    '@type sender: ui.Button'
+    inputs_tf = sender.superview['inputs']
+    results_tv = sender.superview['results']
+    res = []
+    for char in list(inputs_tf.text):
+        keys = cin.rlookup(char)
+        key_str = '／'.join(keys)
+        r = '{}：{}'.format(char, key_str)
+        res.append(r)
+    results_tv.text = '\n'.join(res)
+
+
+if __name__ == '__main__':
+    cin = CinFile('cangjie.cin')
+    v = ui.load_view()
+    v.present('sheet')

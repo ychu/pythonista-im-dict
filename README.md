@@ -1,6 +1,6 @@
 # pythonista-im-dict
 
-This is a Chinese input-method dictionary. It looks up a character in a cin file to show how to code this character in the input methods. pythonista-im-dict will be run in [Pythonista](http://omz-software.com/pythonista/).
+This is a Chinese input-method dictionary. It looks up a character in a cin file to show how to code this character in the input methods. pythonista-im-dict runs in [Pythonista](http://omz-software.com/pythonista/).
 
 # cin File
 
