@@ -1,0 +1,124 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{282, 6}, {32, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "",
+          "border_width" : 1,
+          "flex" : "L",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "❤️",
+          "class" : "Button",
+          "uuid" : "2D07DFFF-F91A-4F73-9FF9-28BDB22BBAF6",
+          "border_color" : "RGBA(0.370283,0.370283,0.370283,1.000000)",
+          "corner_radius" : 5,
+          "font_size" : 15,
+          "name" : "favorite_button"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 46}, {308, 245}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "8462E584-B4D6-4C12-8B61-0A12C210F762",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "border_color" : "RGBA(0.688679,0.688679,0.688679,1.000000)",
+          "editable" : true,
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "results_tv",
+          "flex" : "WHB"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 299}, {320, 181}}",
+        "class" : "View",
+        "attributes" : {
+          "flex" : "WHT",
+          "alpha" : 1,
+          "custom_class" : "",
+          "frame" : "{{110, 190}, {100, 100}}",
+          "class" : "View",
+          "uuid" : "A4E2E9D3-2D5A-469A-8894-E49D7F7311A9",
+          "name" : "keyboard"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{241, 6}, {33, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "",
+          "flex" : "L",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "🔍",
+          "uuid" : "1DB39862-DD65-4CC8-BEA2-AD53E561FA88",
+          "class" : "Button",
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.370283,0.370283,0.370283,1.000000)",
+          "name" : "lookup_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {227, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "4E0D270C-3F45-4C8E-8CED-16494CE21EF8",
+          "font_size" : 18,
+          "corner_radius" : 0,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "border_color" : "RGBA(0.365566,0.365566,0.365566,1.000000)",
+          "border_width" : 1,
+          "alignment" : "left",
+          "text" : "",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "inputs_lab",
+          "flex" : "WB"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "IM Dict",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
