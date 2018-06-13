@@ -169,10 +169,11 @@ class IMDictView:
         else:
             self.__inputs_lab.text += symbol
 
-
-if __name__ == '__main__':
+def main():
     doc = IMDictDoc('bopomofo.cin', 'cangjie.cin')
     view = IMDictView(doc, 'lookup')
     view.load_keyboard_onto_view(doc.kb_symbols)
     view.lookup_view.present('fullscreen')
 
+if __name__ == '__main__':
+    main()
